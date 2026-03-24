@@ -1,0 +1,36 @@
+# ESP-IDF Build Directory (very large, transient files)
+build/
+
+# SDK Configuration 
+# Generated for your machine; sdkconfig.defaults tracks actual project settings
+sdkconfig
+sdkconfig.old
+
+# ESP Component Manager
+# These are automatically downloaded by ESP-IDF; no need to track in Git
+managed_components/
+
+# Track dependencies.lock to ensure everyone uses the same library versions
+# (Optional: Add 'dependencies.lock' below if you want to ignore it too)
+
+# IDE and Tooling Caches
+.cache/
+.vscode/
+.idea/
+*.idx
+
+# Analysis tool outputs
+repomix-output.xml
+repomix-output.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Gemini CLI Instructions
+GEMINI.md
