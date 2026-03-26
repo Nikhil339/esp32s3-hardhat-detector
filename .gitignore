@@ -34,3 +34,6 @@ __pycache__/
 
 # Gemini CLI Instructions
 GEMINI.md
+
+# Output Files
+seethis.txt

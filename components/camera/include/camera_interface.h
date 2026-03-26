@@ -3,7 +3,14 @@
 
 #include "esp_camera.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void initialize_camera(void);
-void createCameraTask();
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
